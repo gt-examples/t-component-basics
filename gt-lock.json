@@ -14,6 +14,20 @@
           }
         }
       }
+    },
+    "brc_maeqml7ggsi9sv5lx5g5qarv": {
+      "879f3a5f954ee8b75bf1e91f4ea9916b41c933e5beba7eb6362647a637c9c66d": {
+        "c59be19fb753f0afce90e74c0b1046d87d029aa738a31a9ec5e781c63613c623": {
+          "es": {
+            "updatedAt": "2026-02-19T05:38:10.017Z",
+            "postProcessHash": "023e1e166033568d48b5ed2fc8fe0ec98a7945c19a4e00628164b71aa9db3fde"
+          },
+          "ja": {
+            "updatedAt": "2026-02-19T05:38:10.020Z",
+            "postProcessHash": "9ada375bdbcbe0dfceeb46f5e4f0b56059f1a691336a6ad6a2ee2bc9a34f3bfd"
+          }
+        }
+      }
     }
   }
 }
