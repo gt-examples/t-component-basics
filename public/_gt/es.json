@@ -1,0 +1,86 @@
+{
+  "2bd11879901e9f99": {
+    "c": [
+      {
+        "c": "Cómo funciona",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": [
+          "Cuando envuelves contenido en <T>, General Translation extrae el texto en tiempo de compilación, lo traduce y sustituye la versión traducida en tiempo de ejecución. La estructura JSX permanece igual — solo cambia el texto."
+        ],
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": "Esto significa que tus estilos, diseño y jerarquía de componentes no se ven afectados en absoluto. Los encabezados siguen siendo encabezados. Los párrafos siguen siendo párrafos. Los enlaces conservan sus destinos.",
+        "i": 4,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "2fdb0a530be84988": {
+    "c": [
+      {
+        "c": "Traducción de JSX en contexto",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          "El componente <T> es la forma más sencilla de traducir contenido con General Translation. Envuelve cualquier bloque de JSX en <T> y toda la sección se traduce como una unidad, preservando la estructura y proporcionando a los traductores el contexto completo."
+        ],
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "45b6f17f2dff0694": {
+    "c": [
+      {
+        "c": "Envolturas amplias para mejores traducciones",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": [
+          "En lugar de envolver cada cadena individualmente, envuelve secciones más grandes de contenido relacionado en un único <T>. Esto le da al traductor más contexto y produce resultados más naturales."
+        ],
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "c": [
+          "Cada sección de esta página está envuelta en un componente <T>. El encabezado y todos los párrafos dentro de una sección se traducen juntos como una sola unidad, lo que garantiza la coherencia."
+        ],
+        "i": 4,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  },
+  "d19a9f871fcdca25": {
+    "c": [
+      {
+        "c": "Pruébalo tú mismo",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": [
+          "Usa el selector de idioma en el encabezado para cambiar de idioma. Cada fragmento de texto en esta página se traduce usando <T> — los encabezados, las descripciones y este mismo párrafo que estás leyendo ahora."
+        ],
+        "i": 3,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "section"
+  }
+}
