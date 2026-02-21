@@ -1,9 +1,40 @@
 import { T } from "gt-next";
 import { LocaleSelector } from "gt-next";
+import { getGT } from "gt-next/server";
 
-export default function Home() {
+export default async function Home() {
+  const gt = await getGT();
+
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      <div className="bg-amber-900/30 border-b border-amber-800/50">
+        <div className="max-w-3xl mx-auto px-6 py-2.5 text-center">
+          <T>
+            <p className="text-xs text-amber-200/80">
+              This is a demo app built with{" "}
+              <a
+                href="https://generaltranslation.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-amber-100"
+              >
+                General Translation
+              </a>
+              . View the{" "}
+              <a
+                href="https://github.com/gt-examples/t-component-basics"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-amber-100"
+              >
+                source code
+              </a>
+              .
+            </p>
+          </T>
+        </div>
+      </div>
+
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -16,9 +47,11 @@ export default function Home() {
               General Translation
             </a>
             <span className="text-neutral-700">/</span>
-            <h1 className="text-sm font-semibold text-neutral-100">
-              {"<T>"} Component Basics
-            </h1>
+            <T>
+              <h1 className="text-sm font-semibold text-neutral-100">
+                {"<T>"} Component Basics
+              </h1>
+            </T>
           </div>
           <div className="flex items-center gap-3">
             <a
@@ -26,7 +59,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-neutral-200 transition-colors"
-              aria-label="View on GitHub"
+              aria-label={gt("View on GitHub")}
             >
               <svg
                 width="20"

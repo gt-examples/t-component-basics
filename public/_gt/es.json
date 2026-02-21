@@ -1,4 +1,5 @@
 {
+  "0c730b7f189776b6": "Ver en GitHub",
   "2bd11879901e9f99": {
     "c": [
       {
@@ -25,13 +26,13 @@
   "2fdb0a530be84988": {
     "c": [
       {
-        "c": "Traducción de JSX en el lugar",
+        "c": "Traducción de JSX en línea",
         "i": 2,
         "t": "h2"
       },
       {
         "c": [
-          "El componente <T> es la forma más sencilla de traducir contenido con General Translation. Envuelve cualquier bloque de JSX en <T> y toda la sección se traduce como una unidad, conservando la estructura y dándole a los traductores el contexto completo."
+          "El componente <T> es la forma más sencilla de traducir contenido con General Translation. Envuelve cualquier bloque de JSX en <T> y toda la sección se traduce como una unidad, preservando la estructura y proporcionando a los traductores el contexto completo."
         ],
         "i": 3,
         "t": "p"
@@ -43,13 +44,13 @@
   "45b6f17f2dff0694": {
     "c": [
       {
-        "c": "Envuelve secciones amplias para mejores traducciones",
+        "c": "Envolturas amplias para mejores traducciones",
         "i": 2,
         "t": "h3"
       },
       {
         "c": [
-          "En lugar de envolver cada cadena de texto individualmente, envuelve secciones más grandes de contenido relacionado en un solo <T>. Esto le da al traductor más contexto y produce resultados más naturales."
+          "En lugar de envolver cada cadena individualmente, envuelve secciones más grandes de contenido relacionado en un único <T>. Esto le da al traductor más contexto y produce resultados más naturales."
         ],
         "i": 3,
         "t": "p"
@@ -65,7 +66,14 @@
     "i": 1,
     "t": "section"
   },
-  "5868c17b6cc6c31e": "Fundamentos del componente T | Traducción genérica",
+  "5868c17b6cc6c31e": "Fundamentos del componente T | Traducción general",
+  "9bfb2c4522102a18": {
+    "c": [
+      "Conceptos básicos del componente <T>"
+    ],
+    "i": 1,
+    "t": "h1"
+  },
   "d19a9f871fcdca25": {
     "c": [
       {
@@ -75,7 +83,7 @@
       },
       {
         "c": [
-          "Usa el selector de idioma en el encabezado para cambiar de idioma. Cada fragmento de texto en esta página está traducido usando <T> — los títulos, las descripciones y este mismo párrafo que estás leyendo ahora."
+          "Usa el selector de idioma en el encabezado para cambiar de idioma. Cada fragmento de texto en esta página se traduce usando <T> — los encabezados, las descripciones y este mismo párrafo que estás leyendo ahora."
         ],
         "i": 3,
         "t": "p"
@@ -84,5 +92,24 @@
     "i": 1,
     "t": "section"
   },
-  "e28864fc8814ff4b": "Fundamentos del componente T: solo envuelve tu JSX con T y se traducirá automáticamente."
+  "d50938dce7925440": {
+    "c": [
+      "Esta es una aplicación de demostración creada con ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      ". Ver el ",
+      {
+        "c": "código fuente",
+        "i": 3,
+        "t": "a"
+      },
+      "."
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "e28864fc8814ff4b": "Fundamentos del componente T: envuelve el JSX con T y se traducirá automáticamente."
 }

@@ -12,6 +12,16 @@
             "updatedAt": "2026-02-19T05:13:11.038Z",
             "postProcessHash": "84b632cdef4bb2a3d2d9987468f72015bfbcda92d390b2d1061c82618126f0f7"
           }
+        },
+        "88bc9fb9e86669327fa584803eb1ca670ba375c71b62ee4c77281fdbae830824": {
+          "es": {
+            "updatedAt": "2026-02-21T07:03:22.675Z",
+            "postProcessHash": "21eabf6a2ef13210b028cb99685e6877957b361df7dd0981cbec946f8402a1d2"
+          },
+          "ja": {
+            "updatedAt": "2026-02-21T07:03:22.678Z",
+            "postProcessHash": "67a4198dfee17357a7b97e9b79481efde311a148479988912a1d4825fdd8c5d4"
+          }
         }
       }
     },
